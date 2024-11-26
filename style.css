@@ -17,7 +17,7 @@ html,body{
     align-items: center;
 }
 
-h1{
+.title h1{
     
     position: absolute;
     color:   rgb(66, 110, 66);
@@ -84,6 +84,7 @@ align-items: center;
 #panel-btm{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 20px;
     width: 100%;
