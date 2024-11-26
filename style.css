@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+html,body{
+   width: 100%;
+    height: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    
+    position: absolute;
+    color:   rgb(66, 110, 66);
+    top: 30px;
+    background-color: rgb(174, 197, 174);
+    text-align: center;
+    
+    
+
+}
+#main{
+    
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(174, 197, 174);
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#top-panel{
+
+display: flex;
+justify-content: space-between;
+color: white;
+padding: 0px 20%;
+align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(66, 110, 66);
+}
+
+.elem{
+    gap: 10px;
+display: flex; 
+align-items: center;
+
+}
+
+.elem h3{
+    font-size: 20px;
+}
+
+.box{
+    color: rgb(29, 85, 29);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    background-color: white;
+    border-radius: 2px;
+
+}
+
+
+#panel-btm{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    gap: 10px;
+
+}
+
+.bubble{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(66, 110, 66);
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.bubble:hover{
+    cursor: pointer;
+background-color:  rgb(40, 99, 40);;
+}
