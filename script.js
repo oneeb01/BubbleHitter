@@ -41,7 +41,7 @@ function runTimer(){
         }
         else{
             clearInterval(clrtimer);
-            document.querySelector("#panel-btm").innerHTML = ""; 
+            document.querySelector("#panel-btm").innerHTML = `<h1>Game Over</h1>`; 
         }
     }, 1000)
 
