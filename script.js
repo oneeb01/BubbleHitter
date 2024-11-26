@@ -1,5 +1,5 @@
 
-var Timer = 15;
+var Timer = 30;
 var score = 0;
 var hitn;
 
